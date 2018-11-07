@@ -85,7 +85,7 @@ function submitMessage(text)
 
 function send2dialogflow(text) {
 	//var text = $("#input").val();
-	var accessToken = "<access token for the agent obtained from dialogflow console>";
+	var accessToken = "e7a2d5212c8a44b08a304c84778ea406";
 	var baseUrl = "https://api.api.ai/v1/";	
 	
 	$.ajax({

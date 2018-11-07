@@ -1,8 +1,8 @@
 var me = {};
-me.avatar = "/me.png";
+me.avatar = "me.png";
 
 var you = {};
-you.avatar = "/you.png";
+you.avatar = "you.png";
 
 function formatAMPM(date) {
     var hours = date.getHours();

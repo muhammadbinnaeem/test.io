@@ -96,7 +96,7 @@ function send2dialogflow(text) {
 		headers: {
 			"Authorization": "Bearer " + accessToken
 		},
-		data: JSON.stringify({ query: text, lang: "en", sessionId: "somerandomthing" }),
+		data: JSON.stringify({ query: text, lang: "en", sessionId :Math.random() }),
 		success: function(data) {
 			setResponse(JSON.stringify(data, undefined, 2));
 		},

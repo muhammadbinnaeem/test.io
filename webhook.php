@@ -1,4 +1,5 @@
 <?php
+die(123);
 // webhook.php
 //
 // Dialogflow calls this service using POST request.
